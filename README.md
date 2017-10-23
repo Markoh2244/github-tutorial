@@ -10,7 +10,7 @@ _by **Marko Henien**_
 
 Git and GitHub are 2 very usefull things. Git is a distributed version control system, and GutHub is a cloud baased website used for storing things such as git "snap shots"
 |  Git      | Simalities   |  GitHub  |   
-|----------|---|---|
+|-----------|--------------|----------|
 |1. Can keep different versoions of things such as code with so called "snap shots"  | -Both are comatible with one another |1.  Takes snapshot and stores things such as code in servers that are part of the larger cloud   |   
 |2. Does not require github inorder to run | -Anyone can use both |2. Needs git in order to run  |  
 |          |   | 3. One can callaborate on a project easily  |  
