@@ -58,6 +58,7 @@ When working With Git there are 4 key commands you'll need in addition to the 3 
 ---
 ## Rolling Back Changes
 So when working on a project you might have made a mistake and want to revert back to and older version. This is possible.    
+
 | |
 |---------|
 | Edit------------->add-------------->commit------------->push| 
