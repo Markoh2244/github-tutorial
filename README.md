@@ -58,13 +58,16 @@ When working With Git there are 4 key commands you'll need in addition to the 3 
 ---
 ## Rolling Back Changes
 So when working on a project you might have made a mistake and want to revert back to and older version. This is possible.    
-
-| Edit------------->add-------------->commit------------->push|  
-|-------------------------------------------------------------|
-|<-------`git checkout -- filename`-- Edit<-------------add<-------`git reset --soft HEAD~1`<-------commit<-------------push|   
+| |
+|---------|
+| Edit------------->add-------------->commit------------->push| 
+|<-----`git checkout -- filename`----Edit<--- `git reset HEAD file name`---add<----`git reset --soft HEAD~1`<-------commit<-----git revert --------push|   
 |---|
-edit<--------------------------------------------------------------------------------------commit|
+pre-edit<------------`git reset --hard HEAD~1`-----------------commit|
 |-|
+|edit<-----`git reset HEAD~1`----commit  |
+
+
 
 
 
