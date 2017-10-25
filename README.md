@@ -61,11 +61,23 @@ So when working on a project you might have made a mistake and want to revert ba
 | |
 |---------|
 | Edit------------->add-------------->commit------------->push| 
-|<-----`git checkout -- filename`----Edit<--- `git reset HEAD file name`---add<----`git reset --soft HEAD~1`<-------commit<-----git revert --------push|   
+|<-----`git checkout -- filename`----Edit<--- `git reset HEAD file name`---add<----`git reset --soft HEAD~1`<-------commit<-----`git revert [version 1] [version 2]..[version you want]` --------push|   
 |---|
 pre-edit<------------`git reset --hard HEAD~1`-----------------commit|
 |-|
-|edit<-----`git reset HEAD~1`----commit  |
+|edit<-----`git reset HEAD~1`----commit  |          
+## EXTRA:
+Here are some cool thims you might want to use but dont have to know:
+* if you init git in the wrong folder you can type `rm -rf .git` and that will uninitialize git
+* If you want to delete a repository you go one space above the repository then type `rf -rf [repo name]`
+   * If you want to get rid of it in the remote you headover to GitHub, then go to the repositorys settings scroll to the bottom and hit delte. Then say yes to the pop up box and it will be deleted.
+* If you would like to edit someones repo you can do 2 things . You can fork or clone the repo.
+    * Forking: with forking you make a copy of the repo for your own use , so you have the same repo , but you can edit it 
+         * You can do this by clicking fork on the desired repo
+         * Once you have the repo and make changes you can do something called a pull request. If you made changes to the repo and you want the original repo to show those changes you can submit a pull request. It asks the admin to allow the repo to be changed with your changes
+    * `git clone`: you can use this if you want to copy code from a repo to your local repo. You take the link from GitHub by cliccking clone . Then you enter `git clone [link]`
+* If you want to copy what is currently on the remote repo to your local repo you use `git pull`
+
 
 
 
